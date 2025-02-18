@@ -28,7 +28,7 @@ Basic Usage
 Simply run:
 
 ```
-docker run -v git-repositories:/srv/git -p 2222:22 rockstorm/git-server
+docker run -v git-repositories:/srv/git -p 2222:22 projectoperations/git-server
 ```
 
 Your server should be accessible on port 2222 via:
